@@ -1,0 +1,17 @@
+PODS:
+  - Crashlytics (3.7.0):
+    - Fabric (~> 1.6.3)
+  - Fabric (1.6.7)
+  - SinchVerification-Swift (1.4.4)
+
+DEPENDENCIES:
+  - Crashlytics
+  - Fabric
+  - SinchVerification-Swift
+
+SPEC CHECKSUMS:
+  Crashlytics: c3a2333dea9e2733d2777f730910321fc9e25c0d
+  Fabric: caf7580c725e64db144f610ac65cd60956911dc7
+  SinchVerification-Swift: b62b0472825ce2be237d84c9ccc323eeccb4e0b6
+
+COCOAPODS: 0.39.0

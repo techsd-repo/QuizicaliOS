@@ -1,0 +1,620 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9765F448B922EF0D09FE67D6 /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD1FB7D507194B9A34712D92 /* Pods.framework */; };
+		FA41BDB21CF0FA0F00FEB4C6 /* CreateProfileVP-VerifyCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA41BDB11CF0FA0F00FEB4C6 /* CreateProfileVP-VerifyCode.swift */; };
+		FA41BDB41CF9E73000FEB4C6 /* CreateProfileWithEmailP1.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA41BDB31CF9E73000FEB4C6 /* CreateProfileWithEmailP1.swift */; };
+		FA41BDB71CF9F2A500FEB4C6 /* CreateProfileWithEmailP2.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA41BDB61CF9F2A500FEB4C6 /* CreateProfileWithEmailP2.swift */; };
+		FAF305711CF0A87D00819B75 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF305701CF0A87D00819B75 /* AppDelegate.swift */; };
+		FAF305731CF0A87D00819B75 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF305721CF0A87D00819B75 /* ViewController.swift */; };
+		FAF305761CF0A87D00819B75 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAF305741CF0A87D00819B75 /* Main.storyboard */; };
+		FAF305781CF0A87D00819B75 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAF305771CF0A87D00819B75 /* Assets.xcassets */; };
+		FAF3057B1CF0A87D00819B75 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAF305791CF0A87D00819B75 /* LaunchScreen.storyboard */; };
+		FAF305861CF0A87D00819B75 /* QuizicalTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF305851CF0A87D00819B75 /* QuizicalTests.swift */; };
+		FAF305911CF0A87D00819B75 /* QuizicalUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF305901CF0A87D00819B75 /* QuizicalUITests.swift */; };
+		FAF3059F1CF0B77F00819B75 /* CreateProfileVP.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF3059E1CF0B77F00819B75 /* CreateProfileVP.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FAF305821CF0A87D00819B75 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FAF305651CF0A87D00819B75 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FAF3056C1CF0A87D00819B75;
+			remoteInfo = Quizical;
+		};
+		FAF3058D1CF0A87D00819B75 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FAF305651CF0A87D00819B75 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FAF3056C1CF0A87D00819B75;
+			remoteInfo = Quizical;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A5D8AA360512478C2A82839C /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		D3EF09BD22B3BA36894838FC /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		DD1FB7D507194B9A34712D92 /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA41BDB11CF0FA0F00FEB4C6 /* CreateProfileVP-VerifyCode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "CreateProfileVP-VerifyCode.swift"; path = "../CreateProfileVP-VerifyCode.swift"; sourceTree = "<group>"; };
+		FA41BDB31CF9E73000FEB4C6 /* CreateProfileWithEmailP1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateProfileWithEmailP1.swift; sourceTree = "<group>"; };
+		FA41BDB61CF9F2A500FEB4C6 /* CreateProfileWithEmailP2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateProfileWithEmailP2.swift; sourceTree = "<group>"; };
+		FAF3056D1CF0A87D00819B75 /* Quizical.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Quizical.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAF305701CF0A87D00819B75 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FAF305721CF0A87D00819B75 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FAF305751CF0A87D00819B75 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FAF305771CF0A87D00819B75 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FAF3057A1CF0A87D00819B75 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FAF3057C1CF0A87D00819B75 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FAF305811CF0A87D00819B75 /* QuizicalTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QuizicalTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAF305851CF0A87D00819B75 /* QuizicalTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizicalTests.swift; sourceTree = "<group>"; };
+		FAF305871CF0A87D00819B75 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FAF3058C1CF0A87D00819B75 /* QuizicalUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QuizicalUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAF305901CF0A87D00819B75 /* QuizicalUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizicalUITests.swift; sourceTree = "<group>"; };
+		FAF305921CF0A87D00819B75 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FAF3059E1CF0B77F00819B75 /* CreateProfileVP.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateProfileVP.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FAF3056A1CF0A87D00819B75 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9765F448B922EF0D09FE67D6 /* Pods.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAF3057E1CF0A87D00819B75 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAF305891CF0A87D00819B75 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1E962B3812E12C507BEA8F14 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D3EF09BD22B3BA36894838FC /* Pods.debug.xcconfig */,
+				A5D8AA360512478C2A82839C /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		E5FD8277FF1B723B95F79A97 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DD1FB7D507194B9A34712D92 /* Pods.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FAF305641CF0A87D00819B75 = {
+			isa = PBXGroup;
+			children = (
+				FAF3056F1CF0A87D00819B75 /* Quizical */,
+				FAF305841CF0A87D00819B75 /* QuizicalTests */,
+				FAF3058F1CF0A87D00819B75 /* QuizicalUITests */,
+				FAF3056E1CF0A87D00819B75 /* Products */,
+				1E962B3812E12C507BEA8F14 /* Pods */,
+				E5FD8277FF1B723B95F79A97 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		FAF3056E1CF0A87D00819B75 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FAF3056D1CF0A87D00819B75 /* Quizical.app */,
+				FAF305811CF0A87D00819B75 /* QuizicalTests.xctest */,
+				FAF3058C1CF0A87D00819B75 /* QuizicalUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FAF3056F1CF0A87D00819B75 /* Quizical */ = {
+			isa = PBXGroup;
+			children = (
+				FAF305701CF0A87D00819B75 /* AppDelegate.swift */,
+				FAF305721CF0A87D00819B75 /* ViewController.swift */,
+				FAF3059E1CF0B77F00819B75 /* CreateProfileVP.swift */,
+				FA41BDB11CF0FA0F00FEB4C6 /* CreateProfileVP-VerifyCode.swift */,
+				FA41BDB31CF9E73000FEB4C6 /* CreateProfileWithEmailP1.swift */,
+				FA41BDB61CF9F2A500FEB4C6 /* CreateProfileWithEmailP2.swift */,
+				FAF305741CF0A87D00819B75 /* Main.storyboard */,
+				FAF305771CF0A87D00819B75 /* Assets.xcassets */,
+				FAF305791CF0A87D00819B75 /* LaunchScreen.storyboard */,
+				FAF3057C1CF0A87D00819B75 /* Info.plist */,
+			);
+			path = Quizical;
+			sourceTree = "<group>";
+		};
+		FAF305841CF0A87D00819B75 /* QuizicalTests */ = {
+			isa = PBXGroup;
+			children = (
+				FAF305851CF0A87D00819B75 /* QuizicalTests.swift */,
+				FAF305871CF0A87D00819B75 /* Info.plist */,
+			);
+			path = QuizicalTests;
+			sourceTree = "<group>";
+		};
+		FAF3058F1CF0A87D00819B75 /* QuizicalUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FAF305901CF0A87D00819B75 /* QuizicalUITests.swift */,
+				FAF305921CF0A87D00819B75 /* Info.plist */,
+			);
+			path = QuizicalUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FAF3056C1CF0A87D00819B75 /* Quizical */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAF305951CF0A87D00819B75 /* Build configuration list for PBXNativeTarget "Quizical" */;
+			buildPhases = (
+				FD85AF1D686C1D721A0A9F98 /* Check Pods Manifest.lock */,
+				FAF305691CF0A87D00819B75 /* Sources */,
+				FAF3056A1CF0A87D00819B75 /* Frameworks */,
+				FAF3056B1CF0A87D00819B75 /* Resources */,
+				926B93CDFAB9AAC837C58FA7 /* Embed Pods Frameworks */,
+				4A40867C50A7258F4B63B7CE /* Copy Pods Resources */,
+				FA41BDB51CF9EA4E00FEB4C6 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Quizical;
+			productName = Quizical;
+			productReference = FAF3056D1CF0A87D00819B75 /* Quizical.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FAF305801CF0A87D00819B75 /* QuizicalTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAF305981CF0A87D00819B75 /* Build configuration list for PBXNativeTarget "QuizicalTests" */;
+			buildPhases = (
+				FAF3057D1CF0A87D00819B75 /* Sources */,
+				FAF3057E1CF0A87D00819B75 /* Frameworks */,
+				FAF3057F1CF0A87D00819B75 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FAF305831CF0A87D00819B75 /* PBXTargetDependency */,
+			);
+			name = QuizicalTests;
+			productName = QuizicalTests;
+			productReference = FAF305811CF0A87D00819B75 /* QuizicalTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FAF3058B1CF0A87D00819B75 /* QuizicalUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAF3059B1CF0A87D00819B75 /* Build configuration list for PBXNativeTarget "QuizicalUITests" */;
+			buildPhases = (
+				FAF305881CF0A87D00819B75 /* Sources */,
+				FAF305891CF0A87D00819B75 /* Frameworks */,
+				FAF3058A1CF0A87D00819B75 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FAF3058E1CF0A87D00819B75 /* PBXTargetDependency */,
+			);
+			name = QuizicalUITests;
+			productName = QuizicalUITests;
+			productReference = FAF3058C1CF0A87D00819B75 /* QuizicalUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FAF305651CF0A87D00819B75 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Gulp;
+				TargetAttributes = {
+					FAF3056C1CF0A87D00819B75 = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = FFAX4JVTJZ;
+					};
+					FAF305801CF0A87D00819B75 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = FAF3056C1CF0A87D00819B75;
+					};
+					FAF3058B1CF0A87D00819B75 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = FAF3056C1CF0A87D00819B75;
+					};
+				};
+			};
+			buildConfigurationList = FAF305681CF0A87D00819B75 /* Build configuration list for PBXProject "Quizical" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FAF305641CF0A87D00819B75;
+			productRefGroup = FAF3056E1CF0A87D00819B75 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FAF3056C1CF0A87D00819B75 /* Quizical */,
+				FAF305801CF0A87D00819B75 /* QuizicalTests */,
+				FAF3058B1CF0A87D00819B75 /* QuizicalUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FAF3056B1CF0A87D00819B75 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAF3057B1CF0A87D00819B75 /* LaunchScreen.storyboard in Resources */,
+				FAF305781CF0A87D00819B75 /* Assets.xcassets in Resources */,
+				FAF305761CF0A87D00819B75 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAF3057F1CF0A87D00819B75 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAF3058A1CF0A87D00819B75 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4A40867C50A7258F4B63B7CE /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		926B93CDFAB9AAC837C58FA7 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FA41BDB51CF9EA4E00FEB4C6 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Fabric/run\" 1497c5b291107a9f45ccbcbc192315c50d7c9ae5 830df302e20c9bd6121611323997a58cda661713d2eba20747cec2f1c3328ca5";
+		};
+		FD85AF1D686C1D721A0A9F98 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FAF305691CF0A87D00819B75 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA41BDB41CF9E73000FEB4C6 /* CreateProfileWithEmailP1.swift in Sources */,
+				FAF3059F1CF0B77F00819B75 /* CreateProfileVP.swift in Sources */,
+				FAF305731CF0A87D00819B75 /* ViewController.swift in Sources */,
+				FA41BDB21CF0FA0F00FEB4C6 /* CreateProfileVP-VerifyCode.swift in Sources */,
+				FA41BDB71CF9F2A500FEB4C6 /* CreateProfileWithEmailP2.swift in Sources */,
+				FAF305711CF0A87D00819B75 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAF3057D1CF0A87D00819B75 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAF305861CF0A87D00819B75 /* QuizicalTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAF305881CF0A87D00819B75 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAF305911CF0A87D00819B75 /* QuizicalUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FAF305831CF0A87D00819B75 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FAF3056C1CF0A87D00819B75 /* Quizical */;
+			targetProxy = FAF305821CF0A87D00819B75 /* PBXContainerItemProxy */;
+		};
+		FAF3058E1CF0A87D00819B75 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FAF3056C1CF0A87D00819B75 /* Quizical */;
+			targetProxy = FAF3058D1CF0A87D00819B75 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FAF305741CF0A87D00819B75 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FAF305751CF0A87D00819B75 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FAF305791CF0A87D00819B75 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FAF3057A1CF0A87D00819B75 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FAF305931CF0A87D00819B75 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FAF305941CF0A87D00819B75 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FAF305961CF0A87D00819B75 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D3EF09BD22B3BA36894838FC /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				INFOPLIST_FILE = Quizical/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.gulp.Quizical;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FAF305971CF0A87D00819B75 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A5D8AA360512478C2A82839C /* Pods.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = Quizical/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.gulp.Quizical;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		FAF305991CF0A87D00819B75 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = QuizicalTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.gulp.QuizicalTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Quizical.app/Quizical";
+			};
+			name = Debug;
+		};
+		FAF3059A1CF0A87D00819B75 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = QuizicalTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.gulp.QuizicalTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Quizical.app/Quizical";
+			};
+			name = Release;
+		};
+		FAF3059C1CF0A87D00819B75 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_ENTITLEMENTS[sdk=*]" = "";
+				INFOPLIST_FILE = QuizicalUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.gulp.QuizicalUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Quizical;
+			};
+			name = Debug;
+		};
+		FAF3059D1CF0A87D00819B75 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = QuizicalUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.gulp.QuizicalUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Quizical;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FAF305681CF0A87D00819B75 /* Build configuration list for PBXProject "Quizical" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAF305931CF0A87D00819B75 /* Debug */,
+				FAF305941CF0A87D00819B75 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FAF305951CF0A87D00819B75 /* Build configuration list for PBXNativeTarget "Quizical" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAF305961CF0A87D00819B75 /* Debug */,
+				FAF305971CF0A87D00819B75 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FAF305981CF0A87D00819B75 /* Build configuration list for PBXNativeTarget "QuizicalTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAF305991CF0A87D00819B75 /* Debug */,
+				FAF3059A1CF0A87D00819B75 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FAF3059B1CF0A87D00819B75 /* Build configuration list for PBXNativeTarget "QuizicalUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAF3059C1CF0A87D00819B75 /* Debug */,
+				FAF3059D1CF0A87D00819B75 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FAF305651CF0A87D00819B75 /* Project object */;
+}
