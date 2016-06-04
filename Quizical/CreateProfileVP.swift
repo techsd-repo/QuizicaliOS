@@ -40,7 +40,7 @@ class CreateProfileVP: UIViewController {
         border.borderColor = UIColor.darkGrayColor().CGColor
         border.frame = CGRect(x: 0, y: (phoneNumber?.frame.size.height)! - width, width:  (phoneNumber?.frame.size.width)!, height: (phoneNumber?.frame.size.height)!)
         
-        border.borderWidth = width 
+        border.borderWidth = width
         phoneNumber?.layer.addSublayer(border)
         phoneNumber?.layer.masksToBounds = true
     }
