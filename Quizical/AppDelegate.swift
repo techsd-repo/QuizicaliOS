@@ -9,6 +9,9 @@
 import UIKit
 import Fabric
 import Crashlytics
+import Parse
+import Firebase
+
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -20,6 +23,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // Override point for customization after application launch.
         Fabric.with([Crashlytics.self])
         Fabric.sharedSDK().debug = true
+      //  FIRApp.configure()
+        
+                
 
         return true
     }

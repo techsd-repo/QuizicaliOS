@@ -8,12 +8,15 @@
 
 /* Begin PBXBuildFile section */
 		9765F448B922EF0D09FE67D6 /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD1FB7D507194B9A34712D92 /* Pods.framework */; };
-		FA41BDB21CF0FA0F00FEB4C6 /* CreateProfileVP-VerifyCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA41BDB11CF0FA0F00FEB4C6 /* CreateProfileVP-VerifyCode.swift */; };
+		FA25F5961D03346100A3C917 /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA25F5951D03346100A3C917 /* Parse.framework */; };
 		FA41BDB41CF9E73000FEB4C6 /* CreateProfileWithEmailP1.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA41BDB31CF9E73000FEB4C6 /* CreateProfileWithEmailP1.swift */; };
 		FA41BDB71CF9F2A500FEB4C6 /* CreateProfileWithEmailP2.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA41BDB61CF9F2A500FEB4C6 /* CreateProfileWithEmailP2.swift */; };
+		FA90B6B21D032F53003B1E58 /* CreateProfileVP-VerifyCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA90B6B11D032F53003B1E58 /* CreateProfileVP-VerifyCode.swift */; };
+		FAA9EBE31D037DEC00D6B6E4 /* PageMenuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA9EBE21D037DEC00D6B6E4 /* PageMenuController.swift */; };
+		FAA9EBE91D03854B00D6B6E4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAA9EBE81D03854B00D6B6E4 /* Main.storyboard */; };
+		FAA9EBED1D046C0500D6B6E4 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = FAA9EBEC1D046C0500D6B6E4 /* GoogleService-Info.plist */; };
 		FAF305711CF0A87D00819B75 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF305701CF0A87D00819B75 /* AppDelegate.swift */; };
 		FAF305731CF0A87D00819B75 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF305721CF0A87D00819B75 /* ViewController.swift */; };
-		FAF305761CF0A87D00819B75 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAF305741CF0A87D00819B75 /* Main.storyboard */; };
 		FAF305781CF0A87D00819B75 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAF305771CF0A87D00819B75 /* Assets.xcassets */; };
 		FAF3057B1CF0A87D00819B75 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAF305791CF0A87D00819B75 /* LaunchScreen.storyboard */; };
 		FAF305861CF0A87D00819B75 /* QuizicalTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF305851CF0A87D00819B75 /* QuizicalTests.swift */; };
@@ -42,13 +45,17 @@
 		A5D8AA360512478C2A82839C /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		D3EF09BD22B3BA36894838FC /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		DD1FB7D507194B9A34712D92 /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		FA41BDB11CF0FA0F00FEB4C6 /* CreateProfileVP-VerifyCode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "CreateProfileVP-VerifyCode.swift"; path = "../CreateProfileVP-VerifyCode.swift"; sourceTree = "<group>"; };
+		FA25F5951D03346100A3C917 /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
+		FA25F5971D0334C100A3C917 /* Quizical-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Quizical-Bridging-Header.h"; sourceTree = "<group>"; };
 		FA41BDB31CF9E73000FEB4C6 /* CreateProfileWithEmailP1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateProfileWithEmailP1.swift; sourceTree = "<group>"; };
 		FA41BDB61CF9F2A500FEB4C6 /* CreateProfileWithEmailP2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateProfileWithEmailP2.swift; sourceTree = "<group>"; };
+		FA90B6B11D032F53003B1E58 /* CreateProfileVP-VerifyCode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CreateProfileVP-VerifyCode.swift"; sourceTree = "<group>"; };
+		FAA9EBE21D037DEC00D6B6E4 /* PageMenuController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PageMenuController.swift; sourceTree = "<group>"; };
+		FAA9EBE81D03854B00D6B6E4 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		FAA9EBEC1D046C0500D6B6E4 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		FAF3056D1CF0A87D00819B75 /* Quizical.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Quizical.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAF305701CF0A87D00819B75 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FAF305721CF0A87D00819B75 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		FAF305751CF0A87D00819B75 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FAF305771CF0A87D00819B75 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FAF3057A1CF0A87D00819B75 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FAF3057C1CF0A87D00819B75 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -66,6 +73,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FA25F5961D03346100A3C917 /* Parse.framework in Frameworks */,
 				9765F448B922EF0D09FE67D6 /* Pods.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -129,16 +137,20 @@
 		FAF3056F1CF0A87D00819B75 /* Quizical */ = {
 			isa = PBXGroup;
 			children = (
+				FA25F5971D0334C100A3C917 /* Quizical-Bridging-Header.h */,
+				FA25F5951D03346100A3C917 /* Parse.framework */,
 				FAF305701CF0A87D00819B75 /* AppDelegate.swift */,
 				FAF305721CF0A87D00819B75 /* ViewController.swift */,
 				FAF3059E1CF0B77F00819B75 /* CreateProfileVP.swift */,
-				FA41BDB11CF0FA0F00FEB4C6 /* CreateProfileVP-VerifyCode.swift */,
+				FA90B6B11D032F53003B1E58 /* CreateProfileVP-VerifyCode.swift */,
 				FA41BDB31CF9E73000FEB4C6 /* CreateProfileWithEmailP1.swift */,
 				FA41BDB61CF9F2A500FEB4C6 /* CreateProfileWithEmailP2.swift */,
-				FAF305741CF0A87D00819B75 /* Main.storyboard */,
+				FAA9EBE21D037DEC00D6B6E4 /* PageMenuController.swift */,
+				FAA9EBE81D03854B00D6B6E4 /* Main.storyboard */,
 				FAF305771CF0A87D00819B75 /* Assets.xcassets */,
 				FAF305791CF0A87D00819B75 /* LaunchScreen.storyboard */,
 				FAF3057C1CF0A87D00819B75 /* Info.plist */,
+				FAA9EBEC1D046C0500D6B6E4 /* GoogleService-Info.plist */,
 			);
 			path = Quizical;
 			sourceTree = "<group>";
@@ -270,9 +282,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FAA9EBE91D03854B00D6B6E4 /* Main.storyboard in Resources */,
+				FAA9EBED1D046C0500D6B6E4 /* GoogleService-Info.plist in Resources */,
 				FAF3057B1CF0A87D00819B75 /* LaunchScreen.storyboard in Resources */,
 				FAF305781CF0A87D00819B75 /* Assets.xcassets in Resources */,
-				FAF305761CF0A87D00819B75 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -358,12 +371,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FA90B6B21D032F53003B1E58 /* CreateProfileVP-VerifyCode.swift in Sources */,
 				FA41BDB41CF9E73000FEB4C6 /* CreateProfileWithEmailP1.swift in Sources */,
 				FAF3059F1CF0B77F00819B75 /* CreateProfileVP.swift in Sources */,
 				FAF305731CF0A87D00819B75 /* ViewController.swift in Sources */,
-				FA41BDB21CF0FA0F00FEB4C6 /* CreateProfileVP-VerifyCode.swift in Sources */,
 				FA41BDB71CF9F2A500FEB4C6 /* CreateProfileWithEmailP2.swift in Sources */,
 				FAF305711CF0A87D00819B75 /* AppDelegate.swift in Sources */,
+				FAA9EBE31D037DEC00D6B6E4 /* PageMenuController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -399,14 +413,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		FAF305741CF0A87D00819B75 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				FAF305751CF0A87D00819B75 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		FAF305791CF0A87D00819B75 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -508,10 +514,15 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Quizical",
+				);
 				INFOPLIST_FILE = Quizical/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.gulp.Quizical;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Quizical/Quizical-Bridging-Header.h";
 			};
 			name = Debug;
 		};
@@ -521,10 +532,15 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Quizical",
+				);
 				INFOPLIST_FILE = Quizical/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.gulp.Quizical;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Quizical/Quizical-Bridging-Header.h";
 			};
 			name = Release;
 		};
@@ -560,6 +576,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.gulp.QuizicalUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Quizical/Quizical-Bridging-Header.h";
 				TEST_TARGET_NAME = Quizical;
 			};
 			name = Debug;
@@ -571,6 +588,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.gulp.QuizicalUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Quizical/Quizical-Bridging-Header.h";
 				TEST_TARGET_NAME = Quizical;
 			};
 			name = Release;

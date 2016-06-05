@@ -6,3 +6,7 @@ use_frameworks!
 pod 'SinchVerification-Swift'
 pod 'Fabric'
 pod 'Crashlytics'
+pod 'Parse'
+pod 'Firebase'
+pod 'Firebase/Auth'
+pod 'PageMenu'

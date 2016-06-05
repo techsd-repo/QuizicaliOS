@@ -40,6 +40,7 @@ class CreateProfileWithEmailP1: UIViewController {
     }
     
     @IBAction func Continue(sender: AnyObject) {
+        performSegueWithIdentifier("passCreate", sender: nil)
     }
     
     override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {

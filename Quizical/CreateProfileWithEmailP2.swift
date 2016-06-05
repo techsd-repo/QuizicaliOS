@@ -7,10 +7,16 @@
 //
 
 import UIKit
+import Fabric
+import Crashlytics
+import Parse
+import Firebase
+import FirebaseAuth
 
 class CreateProfileWithEmailP2: UIViewController {
 
     var username: String = ""
+    @IBOutlet weak var password: UITextField?
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -23,6 +29,13 @@ class CreateProfileWithEmailP2: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
+    @IBAction func createAccount(sender: AnyObject) {
+        
+        FIRAuth.auth()?.createUserWithEmail(username, password: (password?.text)!, completion: { (user, error) in
+            
+        })
+        
+    }
 
     /*
     // MARK: - Navigation
