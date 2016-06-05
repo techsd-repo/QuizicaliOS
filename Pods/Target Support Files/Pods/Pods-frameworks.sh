@@ -84,8 +84,14 @@ strip_invalid_archs() {
 
 
 if [[ "$CONFIGURATION" == "Debug" ]]; then
+  install_framework "Pods/Bolts.framework"
+  install_framework "Pods/PageMenu.framework"
+  install_framework "Pods/Parse.framework"
   install_framework "${PODS_ROOT}/SinchVerification-Swift/swift/SinchVerification.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
+  install_framework "Pods/Bolts.framework"
+  install_framework "Pods/PageMenu.framework"
+  install_framework "Pods/Parse.framework"
   install_framework "${PODS_ROOT}/SinchVerification-Swift/swift/SinchVerification.framework"
 fi
