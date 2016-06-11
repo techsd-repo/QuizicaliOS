@@ -7,9 +7,9 @@
 	<key>AD_UNIT_ID_FOR_INTERSTITIAL_TEST</key>
 	<string>ca-app-pub-3940256099942544/4411468910</string>
 	<key>CLIENT_ID</key>
-	<string>388497314988-qov2buqudo8i909sdkh4sfiii8gghkr7.apps.googleusercontent.com</string>
+	<string>388497314988-hct7lrlpjgnnechqeb1m7lh684328hjj.apps.googleusercontent.com</string>
 	<key>REVERSED_CLIENT_ID</key>
-	<string>com.googleusercontent.apps.388497314988-qov2buqudo8i909sdkh4sfiii8gghkr7</string>
+	<string>com.googleusercontent.apps.388497314988-hct7lrlpjgnnechqeb1m7lh684328hjj</string>
 	<key>API_KEY</key>
 	<string>AIzaSyD_LRAyywEUPVjQ2uy946BuBKFFk8DRu_U</string>
 	<key>GCM_SENDER_ID</key>
@@ -17,7 +17,7 @@
 	<key>PLIST_VERSION</key>
 	<string>1</string>
 	<key>BUNDLE_ID</key>
-	<string>com.gulp.quizical</string>
+	<string>com.gulp.Quizical</string>
 	<key>PROJECT_ID</key>
 	<string>project-5360841005195307052</string>
 	<key>STORAGE_BUCKET</key>
@@ -33,7 +33,7 @@
 	<key>IS_SIGNIN_ENABLED</key>
 	<true/>
 	<key>GOOGLE_APP_ID</key>
-	<string>1:388497314988:ios:93bdd7e6a6ffc726</string>
+	<string>1:388497314988:ios:a44ab3054c89fd23</string>
 	<key>DATABASE_URL</key>
 	<string>https://project-5360841005195307052.firebaseio.com</string>
 </dict>
