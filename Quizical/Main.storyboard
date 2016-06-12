@@ -415,7 +415,7 @@
         <!--publicSets-->
         <scene sceneID="SA2-nt-eph">
             <objects>
-                <viewController storyboardIdentifier="publicSets" title="publicSets" useStoryboardIdentifierAsRestorationIdentifier="YES" id="5jx-kF-Ibw" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="publicSets" title="publicSets" useStoryboardIdentifierAsRestorationIdentifier="YES" id="5jx-kF-Ibw" customClass="SegmentedControlPublicSets" customModule="Quizical" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="Idv-Od-i7m"/>
                         <viewControllerLayoutGuide type="bottom" id="ah0-16-5XS"/>
@@ -424,15 +424,51 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="TXi-XC-4tX">
-                                <rect key="frame" x="0.0" y="0.0" width="594" height="600"/>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="234" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="TXi-XC-4tX">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" id="HoW-Y6-bBE">
-                                        <rect key="frame" x="0.0" y="28" width="594" height="44"/>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="info" rowHeight="200" id="HoW-Y6-bBE">
+                                        <rect key="frame" x="0.0" y="28" width="600" height="200"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="HoW-Y6-bBE" id="hBf-1g-FsC">
-                                            <rect key="frame" x="0.0" y="0.0" width="594" height="43"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="600" height="199"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="k3n-e4-kGL">
+                                                    <rect key="frame" x="8" y="8" width="584" height="183"/>
+                                                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="width" constant="584" id="51g-8C-zUZ"/>
+                                                        <constraint firstAttribute="height" constant="183" id="KRe-Ys-mhO"/>
+                                                    </constraints>
+                                                </view>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ltY-TM-qEY">
+                                                    <rect key="frame" x="13" y="40" width="561" height="138"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="138" id="DdI-A0-yAL"/>
+                                                        <constraint firstAttribute="width" constant="561" id="nL2-yw-qzW"/>
+                                                    </constraints>
+                                                    <string key="text">Welcome to Quizical, where studying, teacher communication, and having fun is easy. Below you'll find 5 random sets of the day. If you swipe to the tab that says "My Sets" you'll be able see your question sets. If you're having trouble finding a game match or a public set, be sure to share it with your friends!</string>
+                                                    <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="17"/>
+                                                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="0.71034482758620687" colorSpace="calibratedRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstItem="k3n-e4-kGL" firstAttribute="centerY" secondItem="hBf-1g-FsC" secondAttribute="centerY" id="801-ZF-8JS"/>
+                                                <constraint firstItem="ltY-TM-qEY" firstAttribute="centerY" secondItem="hBf-1g-FsC" secondAttribute="centerY" constant="9.5" id="LOa-og-ToR"/>
+                                                <constraint firstItem="ltY-TM-qEY" firstAttribute="centerX" secondItem="hBf-1g-FsC" secondAttribute="centerX" constant="-6.5" id="QSc-z1-xTh"/>
+                                                <constraint firstItem="k3n-e4-kGL" firstAttribute="centerX" secondItem="hBf-1g-FsC" secondAttribute="centerX" id="eT3-58-hZd"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                        <color key="backgroundColor" red="0.95859375000000002" green="0.95859375000000002" blue="0.95859375000000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="cell" id="Pw0-ed-Tlv">
+                                        <rect key="frame" x="0.0" y="228" width="600" height="234"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Pw0-ed-Tlv" id="d31-MR-GWS">
+                                            <rect key="frame" x="0.0" y="0.0" width="600" height="233"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                         </tableViewCellContentView>
                                     </tableViewCell>
@@ -441,6 +477,9 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
+                    <connections>
+                        <outlet property="tableView" destination="TXi-XC-4tX" id="0Jt-Xy-62p"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="8NI-Uh-RV9" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
