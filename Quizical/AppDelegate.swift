@@ -25,6 +25,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         Fabric.sharedSDK().debug = true
        FIRApp.configure()
         
+    
+        
         FIRMessaging.messaging().connectWithCompletion { (error) in
             if (error != nil) {
                 print("Unable to connect with FCM. \(error)")
